@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <h1> MY PLAYLIST </h1>
+        <a href="assignment_1"><img src="positions.jpg"></a>
+        <label> Ariana Grande </label><br>
+        <audio controls>
+            <source src ="Bryson_Tiller_-_Don_t(1).mp3"type="audio/mpeg">
+        </audio>
+        <button id ="play_btn"> play </button>
+        <button id ="stop_btn"> stop </button>
+        <a href="assignment_1"><img src="positions.jpg"></a>
+        <label> Ariana Grande </label><br>
+        <audio controls>
+            <source src ="Ariana_Grande_Pov_(thinkNews.com.ng).mp3"type="audio/mpeg">
+        </audio>
+        <button id ="play_btn"> play </button>
+        <button id ="stop_btn"> stop </button>
+        <a href="assignment_1"><img src="positions.jpg"></a>
+        <label> Ariana Grande </label><br>
+        <audio controls>
+            <source src ="Summer_Walker_Drake_-_Girls_Need_Love_Remix_.mp3"type="audio/mpeg">
+        </audio>
+        <button id ="play_btn"> play </button>
+        <button id ="stop_btn"> stop </button>
+        

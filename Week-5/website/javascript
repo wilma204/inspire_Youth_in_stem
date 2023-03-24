@@ -1,0 +1,58 @@
+<DOCTYPE html>
+<html>
+<head>
+     <link rel="stylesheet" href="style.css"> 
+ </head>
+<body>
+     <h1 id="text">Javascript</h1>
+     <h1 id="f_name"></h1>
+     <h1 id="s_name"></h1>
+     <h1 id="age"></h1>
+
+
+     <h2 id="f_number"></h2>
+     <h2 id="s_number"></h2>
+     <h2 id="sum"></h2>
+
+     <h2 id="fruits"></h2>
+     <script>
+
+        //variables in Javascript
+        //number
+                
+         var f_number = 20;
+         var s_number = 10;
+         var sum_number = f_numger + s_number
+         var diff_num = f_number - s_number
+         var product_num = f_number * s_number
+         
+
+        //string
+         var my_first_name ="Wilma"
+         var my_second_name ="Wanjiku"
+         var my_city = "Nairobi"
+         var full_name =my_first_name + my_second_name
+         var age = 18;
+         var weight =50.9;
+
+
+         //arays
+         let fruits = ["grapes" , "apple" , "mangoe" , "lime" , "orange"]
+          let my_fruit = fruits[fruits.len -1];
+
+          //conditions -- if else
+          if (age > 18) {
+            msg = "You can drive"
+          }
+
+          document.getElementById("fruit").innerHTML=msg
+         document.getElementById("f_name").innerHTML=full_name
+         document .getElementById("s_number").innerHTML=my_second_number
+         document .getElementById("sum").innerHTML=sum_number   
+//arithmetic
+//+ , - ,* , %  , /,
+
+    </script>
+    <button> click me</button>
+</body>
+</html>
